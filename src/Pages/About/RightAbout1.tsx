@@ -39,7 +39,7 @@ const RightAbout1 = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link className="twitter" to="https://www.facebook.com/messara.ezenard.2025" target="_blank">
+                                <Link className="instagram" to="https://www.instagram.com/ezenardmessara/" target="_blank">
                                     <svg version="1.0" className='fn__svg' xmlns="http://www.w3.org/2000/svg"
                                                 width="428.000000pt" height="428.000000pt" viewBox="0 0 428.000000 428.000000"
                                                 preserveAspectRatio="xMidYMid meet">

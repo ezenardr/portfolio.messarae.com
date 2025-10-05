@@ -9,11 +9,11 @@ const Details = [
     //     value: "05.08.2000",
 
     // },
-    {
-        lable: "Age:",
-        value: 27,
+    // {
+    //     lable: "Age:",
+    //     value: 27,
 
-    },
+    // },
     {
         lable: "Address:",
         value: "Ottawa, CA",
@@ -40,7 +40,7 @@ const Details = [
     // },
     {
         lable: "Interest:",
-        value: "Lecture, Ecriture, Musique",
+        value: "Lecture, Ecriture, Musique, Theatre",
     },
     // {
     //     lable: "Freelance:",

@@ -32,7 +32,7 @@ const SpringFashion = () => {
                                         <div className="title_holder">
                                             <div className="fn__metas">
                                                 <span className="cat"><span className="fn__creative_link">Style De Vie</span></span>
-                                                <span className="author">28 Mars, 2025</span>
+                                                <span className="author">8 Mars, 2025</span>
                                             </div>
                                             <h3 className="fn__title fn__limited_title">
                                                 <span>

@@ -87,11 +87,11 @@ const StickyHeader = ({ }: HeaderProps) => {
                         <nav className="mosso_fn_nav">
                             <div className="menu">
                                 <ul role="menu" className="mosso_fn_main_nav">
-                                    <li><Link to="/" className={location.pathname === '/' ? 'active' : ''} >Home</Link></li>
-                                    <li><Link to="/about" className={location.pathname === '/about' ? 'active' : ''}>About</Link></li>
+                                    <li><Link to="/" className={location.pathname === '/' ? 'active' : ''} >Accueil</Link></li>
+                                    <li><Link to="/about" className={location.pathname === '/about' ? 'active' : ''}>A propos</Link></li>
                                     {/* <li><Link to="/tags" className={location.pathname === '/tags' ? 'active' : ''}>Tags</Link></li> */}
                                     {/* <li><Link to="/authors" className={location.pathname === '/authors' ? 'active' : ''}>Authors</Link></li> */}
-                                    <li><Link to="/projects" className={location.pathname === '/projects' ? 'active' : ''}>Projects</Link></li>
+                                    <li><Link to="/projects" className={location.pathname === '/projects' ? 'active' : ''}>Projets</Link></li>
                                     {/* <li><Link to="/membership" className={location.pathname === '/membership' ? 'active' : ''}>Membership</Link></li> */}
                                     {/* <li className="menu-item-has-children">
                                         <Link to="#">More</Link>

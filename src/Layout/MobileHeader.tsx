@@ -109,11 +109,11 @@ const MobileHeadre = ({ }: HeaderProps) => {
                 <div className="mob_bottom" style={{ display: `${menu ? "block" : "none"}` }}>
                     <div className="mob_bottom_in">
                         <ul role="menu" className="mobile_menu">
-                            <li><Link to="/" onClick={handleMenu}>Home</Link></li>
-                            <li><Link to="/about" onClick={handleMenu}>About</Link></li>
+                            <li><Link to="/" onClick={handleMenu}>Accueil</Link></li>
+                            <li><Link to="/about" onClick={handleMenu}>A propos</Link></li>
                             {/* <li><Link to="/tags" onClick={handleMenu}>Tags</Link></li> */}
                             {/* <li><Link to="/authors" onClick={handleMenu}>Authors</Link></li> */}
-                            <li><Link to="/projects" onClick={handleMenu}>Projects</Link></li>
+                            <li><Link to="/projects" onClick={handleMenu}>Projets</Link></li>
                             {/* <li><Link to="/membership" onClick={handleMenu}>Membership</Link></li> */}
                             {/* <li className="menu-item-has-children">
                                 <Link to="#" onClick={() => setIsSubMenuOpen(true)} >More</Link>

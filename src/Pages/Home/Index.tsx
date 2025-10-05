@@ -17,7 +17,7 @@ const Index = () => {
               <div className="fn__section_title">
                 <div className="container">
                   <div className="section_title_container">
-                    <h3 className="fn__title"><span className="text">Latest Projects</span></h3>
+                    <h3 className="fn__title"><span className="text">Projets</span></h3>
                     <span className="title_decor"></span>
                   </div>
                 </div>

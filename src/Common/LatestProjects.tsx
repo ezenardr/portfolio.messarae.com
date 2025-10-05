@@ -4,8 +4,11 @@ import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 
 import Project1 from '../assets/img/projects/1.jpg';
 import Project2 from '../assets/img/projects/2.jpg';
-import Project3 from '../assets/img/projects/3.png';
+import Project22 from '../assets/img/projects/222.jpg';
+import Project3 from '../assets/img/projects/3.jpg';
 import Project4 from '../assets/img/projects/4.jpg'
+import Project5 from '../assets/img/projects/5.webp'
+import Project6 from '../assets/img/projects/6.jpg'
 // import Project5 from '../assets/img/projects/5.jpg';
 // import Project6 from '../assets/img/projects/6.jpg';
 // import Project7 from '../assets/img/projects/7.jpg';
@@ -38,6 +41,29 @@ const LatestProjects = () => {
                                             <div className="title_in">
                                                 <h3 className="title fn__limited_title"><span><Link to="https://messarae.com/ignorer-pour-mieux-agir">Ignorer pour mieux agir, la réponse qui n'en est pas une.</Link></span></h3>
                                                 <Link to="https://messarae.com/ignorer-pour-mieux-agir" className="fn__icon_link_arrow">
+                                                    <svg version="1.1" className='fn__svg' id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                        viewBox="0 0 298 123.8" xmlSpace="preserve">
+                                                        <path d="M298,50.9L196.3,0l-29.1,14.5l38.2,19.1C108.8,37.1-4.3,123.9,0.1,123.5C0.7,129,98,65.5,221.6,65l-47.1,36.7L298,50.9z" />
+                                                    </svg>
+                                                </Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li className="blog_item fn__masonry_item">
+                                    <div className="fn__blog_item">
+                                        <div className="img_holder">
+                                            <Link to="https://messarae.com/mes-cheveux-ma-couronne-ma-puissance"><img src={Project22} alt="Mes cheveux, ma couronne, ma puissance" /> </Link>
+                                            <div className="fn__metas color_bg">
+                                                <span className="cat"><span className="fn__creative_link">Style de vie</span></span>
+                                                <span className="author">15 Juillet, 2025</span>
+                                            </div>
+                                        </div>
+                                        <div className="title_holder">
+
+                                            <div className="title_in">
+                                                <h3 className="title fn__limited_title"><span><Link to="https://messarae.com/mes-cheveux-ma-couronne-ma-puissance">Mes cheveux, ma couronne, ma puissance</Link></span></h3>
+                                                <Link to="https://messarae.com/mes-cheveux-ma-couronne-ma-puissance" className="fn__icon_link_arrow">
                                                     <svg version="1.1" className='fn__svg' id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                                         viewBox="0 0 298 123.8" xmlSpace="preserve">
                                                         <path d="M298,50.9L196.3,0l-29.1,14.5l38.2,19.1C108.8,37.1-4.3,123.9,0.1,123.5C0.7,129,98,65.5,221.6,65l-47.1,36.7L298,50.9z" />
@@ -97,16 +123,61 @@ const LatestProjects = () => {
                                 <li className="blog_item fn__masonry_item  block-small-img">
                                     <div className="fn__blog_item">
                                         <div className="img_holder">
-                                            <Link to="https://messarae.com/les-effets-du-lait-sur-la-sante-gastrique"><img src={Project3} alt="Le Lait et la Santé Gastrique : Comment Équilibrer ses Bienfaits et Ses Risques" /></Link>
+                                            <Link to="https://messarae.com/jamais-sans-mon-frere"><img src={Project3} alt="Jamais Sans Mon Frère" /></Link>
                                             <div className="fn__metas color_bg">
-                                                <span className="cat"><span className="fn__creative_link">Travel</span></span>
-                                                <span className="author">28 février, 2025</span>
+                                                <span className="cat"><span className="fn__creative_link">Style de vie</span></span>
+                                                <span className="author">07 janvier, 2025</span>
                                             </div>
                                         </div>
                                         <div className="title_holder">
                                             <div className="title_in">
-                                                <h3 className="title fn__limited_title"><span><Link to="https://messarae.com/les-effets-du-lait-sur-la-sante-gastrique">Le Lait et la Santé Gastrique : Comment Équilibrer ses Bienfaits et Ses Risques</Link></span></h3>
-                                                <Link to="https://messarae.com/les-effets-du-lait-sur-la-sante-gastrique" className="fn__icon_link_arrow">
+                                                <h3 className="title fn__limited_title"><span><Link to="https://messarae.com/jamais-sans-mon-frere">Jamais Sans Mon Frère</Link></span></h3>
+                                                <Link to="https://messarae.com/jamais-sans-mon-frere" className="fn__icon_link_arrow">
+                                                    <svg version="1.1" className='fn__svg' id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                        viewBox="0 0 298 123.8" xmlSpace="preserve">
+                                                        <path d="M298,50.9L196.3,0l-29.1,14.5l38.2,19.1C108.8,37.1-4.3,123.9,0.1,123.5C0.7,129,98,65.5,221.6,65l-47.1,36.7L298,50.9z" />
+                                                    </svg>
+                                                </Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li className="blog_item fn__masonry_item  block-small-img">
+                                    <div className="fn__blog_item">
+                                        <div className="img_holder">
+                                            <Link to="https://lecahier.com/que-faire-quand-le-changement-simpose-a-nous/"><img src={Project5} alt="Que faire quand le changement s'impose à nous?" /></Link>
+                                            <div className="fn__metas color_bg">
+                                                <span className="cat"><span className="fn__creative_link">Style de vie</span></span>
+                                                <span className="author">26 novembre, 2024</span>
+                                            </div>
+                                        </div>
+                                        <div className="title_holder">
+                                            <div className="title_in">
+                                                <h3 className="title fn__limited_title"><span><Link to="https://lecahier.com/que-faire-quand-le-changement-simpose-a-nous/">Que faire quand le changement s'impose à nous?</Link></span></h3>
+                                                <Link to="https://lecahier.com/que-faire-quand-le-changement-simpose-a-nous/" className="fn__icon_link_arrow">
+                                                    <svg version="1.1" className='fn__svg' id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                        viewBox="0 0 298 123.8" xmlSpace="preserve">
+                                                        <path d="M298,50.9L196.3,0l-29.1,14.5l38.2,19.1C108.8,37.1-4.3,123.9,0.1,123.5C0.7,129,98,65.5,221.6,65l-47.1,36.7L298,50.9z" />
+                                                    </svg>
+                                                </Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li className="blog_item fn__masonry_item  block-small-img">
+                                    <div className="fn__blog_item">
+                                        <div className="img_holder">
+                                            <Link to="https://www.amazon.com/vie-derri%C3%A8re-rideaux-French/dp/B0CMMSM424/ref=sr_1_1?crid=8TVMGLLZN5YW&dib=eyJ2IjoiMSJ9.-z3Z20majXgQRrtZ7z_C3W9oWloJRdTyhpwvP_V8XMrpc5lQlU6nn9U8dputvczLkW77wQ0cXt1F2ikhlIZOuB6fLsyURNT-xAVAaCnneNo.cNJhY85MEVSrgIESTbFcXJ6-SgGkqiagIybBzVSvOuE&dib_tag=se&keywords=la+vie+derriere+les+rideaux&qid=1759671491&sprefix=la+vie+deriere+les+rideau%2Caps%2C103&sr=8-1"><img src={Project6} alt="La vie derrière les rideaux (French Edition)" /></Link>
+                                            <div className="fn__metas color_bg">
+                                                <span className="cat"><span className="fn__creative_link">Livre</span></span>
+                                                <span className="author">02 novembre, 2023</span>
+                                            </div>
+                                        </div>
+                                        <div className="title_holder">
+                                            <div className="title_in">
+                                                <h3 className="title fn__limited_title"><span><Link to="https://www.amazon.com/vie-derri%C3%A8re-rideaux-French/dp/B0CMMSM424/ref=sr_1_1?crid=8TVMGLLZN5YW&dib=eyJ2IjoiMSJ9.-z3Z20majXgQRrtZ7z_C3W9oWloJRdTyhpwvP_V8XMrpc5lQlU6nn9U8dputvczLkW77wQ0cXt1F2ikhlIZOuB6fLsyURNT-xAVAaCnneNo.cNJhY85MEVSrgIESTbFcXJ6-SgGkqiagIybBzVSvOuE&dib_tag=se&keywords=la+vie+derriere+les+rideaux&qid=1759671491&sprefix=la+vie+deriere+les+rideau%2Caps%2C103&sr=8-1">La vie derrière les rideaux (French Edition)</Link></span></h3>
+                                                <Link to="https://www.amazon.com/vie-derri%C3%A8re-rideaux-French/dp/B0CMMSM424/ref=sr_1_1?crid=8TVMGLLZN5YW&dib=eyJ2IjoiMSJ9.-z3Z20majXgQRrtZ7z_C3W9oWloJRdTyhpwvP_V8XMrpc5lQlU6nn9U8dputvczLkW77wQ0cXt1F2ikhlIZOuB6fLsyURNT-xAVAaCnneNo.cNJhY85MEVSrgIESTbFcXJ6-SgGkqiagIybBzVSvOuE&dib_tag=se&keywords=la+vie+derriere+les+rideaux&qid=1759671491&sprefix=la+vie+deriere+les+rideau%2Caps%2C103&sr=8-1" className="fn__icon_link_arrow">
                                                     <svg version="1.1" className='fn__svg' id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                                         viewBox="0 0 298 123.8" xmlSpace="preserve">
                                                         <path d="M298,50.9L196.3,0l-29.1,14.5l38.2,19.1C108.8,37.1-4.3,123.9,0.1,123.5C0.7,129,98,65.5,221.6,65l-47.1,36.7L298,50.9z" />
