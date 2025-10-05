@@ -1,0 +1,161 @@
+@charset "utf-8";
+@media(max-width: 1400px){
+    .container{ padding: 0 40px; }
+    .fn__blog_list .blog_list{
+        margin-left: -40px;
+        margin-bottom: 60px;
+    }
+    .fn__blog_list .blog_item{
+        padding-left: 40px;
+        margin-bottom: 40px;
+    }
+}
+@media(max-width: 1040px){
+    .fn__authors_list li{width: 50%;}
+    .fn__blog_item .fn__metas{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    .fn__blog_item .img_holder img{
+        transform: translateY(-34px);
+    }
+    .fn__featured_posts .title_holder{
+        padding: 20px;
+    }
+    .fn__featured_posts .title_holder .fn__title{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .fn__featured_posts{padding: 0;}
+    .fn__tag_list_alpha li{
+        width: 33.3333%;
+    }
+    .fn__blog_item .title_in{
+        padding-left: 19px;
+        padding-right: 19px;
+        gap: 40px;
+    }
+    .container{ padding: 0 20px; }
+    #mosso_fn_sticky_header,
+    #mosso_fn_header{display: none;}
+    .mosso_fn_mobnav{display: block !important;}
+    .mob_bottom{display: none }
+    .fn__mini_posts .title_holder{
+        padding: 0 20px;
+    }
+    .fn__about_page{
+        flex-direction: column;
+    }
+    .fn__about_page .about_left{
+        width: 100%;
+        padding-right: 0;
+        max-width: 600px;
+    }
+    .fn__about_page .about_right{
+        width: 100%;
+        padding-left: 0;
+    }
+    .fn__about_page{
+        padding-bottom: 100px;
+    }
+}
+/* @media(max-width: 1024px){
+    .mosso_fn_mobnav{display: block; width: 100%;}
+} */
+@media(max-width: 768px){
+    .fn__edu .item{padding: 20px;}
+    .fn__details .label{
+        flex: 0 0 150px;
+    }
+    .fn__pnb{
+        flex-direction: column;
+    }
+    .fn__pnb:after{
+		margin: 0;
+		width: 100%;
+		height: 1px;
+		top: 50%;
+		left: 0;
+		right: 0;
+		bottom: auto;
+	}
+    .fn__mini_posts .img_holder{
+        flex: 0 0 70px;
+    }
+    .fn__mini_posts .img_holder img{
+        width: 70px;
+        height: 70px;
+    }
+    .fn__mini_posts .item{
+        height: 70px;
+    }
+    .fn__pricing_tables .pt_list_item{
+		width: 100%;
+		width: calc(100% + 2px);
+	}
+	.fn__pricing_table_item{
+		padding: 20px;
+	}
+    .mosso_fn_subscribe_form{
+        padding: 30px 20px;
+    }
+    .fn__account_details{
+        padding: 0 20px;
+    }
+    .fn__author_info .left_part,
+    .fn__tag_info .left_part{
+        width: 100%;
+        flex: 1;
+        margin: 0 0 50px;
+    }
+    .fn__author_info,
+    .fn__tag_info{
+        flex-direction: column;
+    }
+    .fn__authors_list li{width: 100%;}
+    .fn__subscribe{
+        flex-direction: column;
+    }
+    .fn__subscribe input[type="email"]{
+        margin-bottom: 10px;
+    }
+    .fn__btn.extra{
+        height: 50px;
+        line-height: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 16px;
+    }
+    .fn__btn.extra:before, .fn__btn.extra:after{
+        border-radius: 25px;
+    }
+    .fn__404 .title{font-size: 100px;}
+    .fn__404 .subtitle{font-size: 40px;}
+    .fn__featured_posts .title_holder .desc{
+        margin-bottom: 16px;
+    }
+    .fn__featured_posts .item{padding-right: 0;}
+    .fn__featured_posts .title_holder{
+        position: relative;
+        width: calc(100% - 40px);
+        transform: none;
+        left: auto;
+        top: auto;
+        margin: -40px auto 0;
+    }
+    .fn__tag_list_alpha li{width: 50%;}
+    .fn__blog_list .blog_item{width: 100%;}
+}
+@media(max-width: 480px){
+    .fn__account_details .details_header{
+        flex-direction: column;
+        align-items: flex-start;
+        gap:10px;
+        padding: 20px 0;
+    }
+    .fn__account_details .details_content li{width: 100%;}
+    .fn__section_title .title_decor{display: none;}
+    .fn__tag_list_alpha li{width: 100%;}
+    .container{ padding: 0 10px; }
+    .fn__section_title .fn__title{max-width: 100%;}
+}
